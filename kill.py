@@ -16,7 +16,7 @@ def kill_process_and_sub(process):
         
 #---MAIN---
 if __name__ == '__main__':
-    proc = sub.Popen(["COMMAND", "ARG1", "ARG2", "..."])
+    proc = sub.Popen(["COMMAND", "ARG1", "ARG2", "..."])#CHANGE THIS COMMAND PARAMETERS
     time.sleep(5)
     kill_process_and_sub(proc)
   
